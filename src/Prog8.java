@@ -18,9 +18,7 @@ public class Prog8 {
             }
             c++;
             }
-        if(c*c>n){
-            return true;
-        }
-        return false;
+
+        return (c*c>n);
     }
 }
